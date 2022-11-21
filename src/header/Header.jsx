@@ -8,7 +8,7 @@ export default function header() {
             <span className="headerTitleLg">Blog</span>
 
         </div>
-        <img className="headerImg" src="https://media.istockphoto.com/id/1205613046/photo/top-view-of-modern-office-workspace.jpg?b=1&s=170667a&w=0&k=20&c=bWOA9d-nbIlSYT8ukXiJTAgMre8hbYjr5gKNarNbIGE=" alt="" />
+        <img className="headerImg" src="https://images.pexels.com/photos/1167355/pexels-photo-1167355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="" />
     </div>
   )
 }
