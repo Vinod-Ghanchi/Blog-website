@@ -7,27 +7,23 @@ import Login from "./pages/home/login/Login";
 import Register from "./pages/home/register/Register";
 import {
   BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
 } from "react-router-dom";
 
 function App() { 
-  const user = true;
+  const user = false;
   return (
     <Router>
       <Topbar />
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route path="/register">{user ? <Home /> :<Register />}</Route>
-        <Route path="/login">{user ? <Home /> :<Login />}</Route>
-        <Route path="/write">{user ? <Write /> :<Register />}</Route>
-        <Route path="/settings">{user ? <Settings /> :<Register />}</Route>
-        <Route path="/post/:postId">
-          <Single />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route exact path="/" element={<Home/>}/>
+        <Route path="/register" element={user ? <Home /> :<Register />}/>
+        <Route path="/login"element={user ? <Home /> :<Login />}/>
+        <Route path="/write"element={user ? <Write /> :<Register />}/>
+        <Route path="/settings"element={user ? <Settings /> :<Register />}/>
+        <Route path="/post/:postId" element={<Single/>}/>
+      </Routes>
     </Router>
   );
 }
