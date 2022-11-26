@@ -1,10 +1,17 @@
 // import { Link } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { Context } from "../../context/Context";
 import "./topbar.css";
 
 export default function Topbar() {
-  const user = false;
-  return (
+  const { user,dispatch } = useContext(Context);
+  const PF = 'http://localhost:5000/images/'
+
+  const handleLogout=() =>{
+    dispatch({type: "LOGOUT"}) 
+  }
+    return (
     <div className="top">
       <div className="topLeft">
         <i className="topIcon fab fa-facebook-square"></i>
@@ -20,17 +27,18 @@ export default function Topbar() {
           <li className="topListItem"><Link to="/" className="link">ABOUT</Link></li>
           <li className="topListItem"><Link to="/" className="link">CONTACT</Link></li>
           <li className="topListItem"><Link to="/write" className="link">WRITE</Link></li>
-          <li className="topListItem">
+          <li className="topListItem" onClick={handleLogout}>
             {user && "LOGOUT"}
           </li>
         </ul>
       </div>
       <div className="topRight">
+      
         {user ? (
           <Link className="link" to="/settings">
             <img
               className="topImg"
-              src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src={PF + user.profilePic}
               alt=""
             />
           </Link>
