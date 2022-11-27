@@ -52,3 +52,5 @@ Not deployed on any hosting site yet (Heroku, GoDaddy etc). Database managed thr
 2. Uploading gifs and videos along with photos
 3. Location tagging
 4. Adding filtering by categories feature
+
+Website screenshots
