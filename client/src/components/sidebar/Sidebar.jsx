@@ -17,13 +17,12 @@ export default function Sidebar() {
     <div className="sidebar">
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
-        <img
-          src="https://i.pinimg.com/236x/1e/3f/58/1e3f587572a7a7b20bbf1828595a1786--holiday-party-themes-holiday-gift-guide.jpg"
+        <img width = "350"
+          src="https://media.istockphoto.com/id/485614909/photo/guide-explaining-to-tourists-the-coliseum-of-rome.jpg?s=612x612&w=0&k=20&c=cPJKPvRAi4M5g2NVHts5P7mZ1iwl_92ru6bXdTub6jQ="
           alt=""
         />
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate qui
-          necessitatibus nostrum illum reprehenderit.
+          MERN Full Stack Project by Aryan,Vinod,Kaushik
         </p>
       </div>
       <div className="sidebarItem">
@@ -39,9 +38,9 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">FOLLOW US</span>
         <div className="sidebarSocial">
-          <i className="sidebarIcon fab fa-facebook-square"></i>
-          <i className="sidebarIcon fab fa-twitter-square"></i>
-          <i className="sidebarIcon fab fa-pinterest-square"></i>
+          <a href="https://www.facebook.com/incredibleindia/"><i href="" className="topIcon fab fa-facebook-square" ></i></a>
+          <a href="https://twitter.com/incredibleindia"><i className="topIcon fab fa-twitter-square"></i></a>
+          <a href="https://in.pinterest.com/abhinil20/tourism-india/"><i className="topIcon fab fa-pinterest-square"></i></a>
           <i className="sidebarIcon fab fa-instagram-square"></i>
         </div>
       </div>
