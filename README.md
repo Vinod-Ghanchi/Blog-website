@@ -29,7 +29,7 @@ To explore features of MERN stack, such as
 4. Managing and updating multiple mongoDB databases
 
 
-# Libraries used in api side :-
+# Libraries used in api side 
 
 1. Bcrypt (for encrypting the passwords of users)
 2. Dotenv (for storing the connection url and other private credentials and global variables)
@@ -38,14 +38,15 @@ To explore features of MERN stack, such as
 5. Multer (for file upload)
 6. Path (For routing or redirecting)
 
-# Libraries used in client side:
+# Libraries used in client side
 1. React
 2. Axios
 
-# Deployment: 
+# Deployment
 Not deployed on any hosting site yet (Heroku, GoDaddy etc). Database managed through online MongoDB account
 
-# Future Scope:
+
+# Future Scope
 
 1. Properly implementing option to change profile details, such as username and profile picture
 2. Uploading gifs and videos along with photos
