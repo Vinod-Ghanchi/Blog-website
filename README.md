@@ -1,15 +1,21 @@
 # Title   
-Tourism blog website
+Tourism blog website (Sem V MERN Project)
+
+# Creators
+
+1. Aryan Balpande (16010120002)
+2. Vinod Ghanchi (16010120016)
+3. Kaushik Iyer (16010120017)
 
 # Features
 
-1)User can create account
-2)User can personalize account by adding his own profile picture
-3)Registered User can upload his own blogs
-4)Registered user can edit his blog at a later time
-5)Only the author of the blog has edit access to the blogs and update them
-6)Users can read different user’s post
-7)Random guest user can also read the blogs
+1. User can create account
+2. User can personalize account by adding his own profile picture
+3. Registered User can upload his own blogs
+4. Registered user can edit his blog at a later time
+5. Only the author of the blog has edit access to the blogs and update them
+6. Users can read different user’s post
+7. Random guest user can also read the blogs
 
 
 # Problem Statement  
