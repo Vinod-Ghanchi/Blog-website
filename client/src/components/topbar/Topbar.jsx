@@ -13,10 +13,7 @@ export default function TopBar() {
   return (
     <div className="top">
       <div className="topLeft">
-        <a href="https://www.facebook.com/incredibleindia/"><i href="" className="topIcon fab fa-facebook-square" ></i></a>
-        <a href="https://twitter.com/incredibleindia"><i className="topIcon fab fa-twitter-square"></i></a>
-        <a href="https://in.pinterest.com/incredibleindia/"><i className="topIcon fab fa-pinterest-square"></i></a>
-        <a href="https://www.instagram.com/incredibleindia/?hl=en"><i className="topIcon fab fa-instagram-square"></i></a>
+       
       </div>
       <div className="topCenter">
         <ul className="topList">

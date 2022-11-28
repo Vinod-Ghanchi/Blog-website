@@ -38,10 +38,7 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">FOLLOW US</span>
         <div className="sidebarSocial">
-          <a href="https://www.facebook.com/incredibleindia/"><i href="" className="topIcon fab fa-facebook-square" ></i></a>
-          <a href="https://twitter.com/incredibleindia"><i className="topIcon fab fa-twitter-square"></i></a>
-          <a href="https://in.pinterest.com/abhinil20/tourism-india/"><i className="topIcon fab fa-pinterest-square"></i></a>
-          <i className="sidebarIcon fab fa-instagram-square"></i>
+         
         </div>
       </div>
     </div>
