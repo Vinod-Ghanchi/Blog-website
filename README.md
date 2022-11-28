@@ -1,5 +1,5 @@
 # Title   
-Tourism blog website 
+Tourism blog website using MERN stack technology
 
 # Features
 
