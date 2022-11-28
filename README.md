@@ -1,11 +1,5 @@
 # Title   
-Tourism blog website (Sem V MERN Project)
-
-# Creators
-
-1. Aryan Balpande (16010120002)
-2. Vinod Ghanchi (16010120016)
-3. Kaushik Iyer (16010120017)
+Tourism blog website 
 
 # Features
 
@@ -19,7 +13,9 @@ Tourism blog website (Sem V MERN Project)
 
 
 # Problem Statement  
-Build a tourism Blog website with the help of MERN stack
+Build a tourism Blog website with the help of MERN stack.
+To explore different modules and libraries for building a full stack website.
+To implement CRUD operation, Multer functions, database connection and other features.
 
 # Motivation 
 To explore features of MERN stack, such as
@@ -29,7 +25,7 @@ To explore features of MERN stack, such as
 4. Managing and updating multiple mongoDB databases
 
 
-# Libraries used in api side 
+# Libraries used in Backend  
 
 1. Bcrypt (for encrypting the passwords of users)
 2. Dotenv (for storing the connection url and other private credentials and global variables)
@@ -38,7 +34,7 @@ To explore features of MERN stack, such as
 5. Multer (for file upload)
 6. Path (For routing or redirecting)
 
-# Libraries used in client side
+# Libraries used in Frontend
 1. React
 2. Axios
 
@@ -52,5 +48,23 @@ Not deployed on any hosting site yet (Heroku, GoDaddy etc). Database managed thr
 2. Uploading gifs and videos along with photos
 3. Location tagging
 4. Adding filtering by categories feature
+5. Implementing the feature such as changing password and also cant keep the new password same as previous passwords.
+6. Implementing forgot password feature.
+7. Including tags for various places visited.
+8. Uploading Multiple photos in a single post.
+9. Follow feature, Like feature,etc.
 
 Website screenshots
+![image](https://user-images.githubusercontent.com/80514865/204260925-81a4c769-c9aa-4265-835c-57cfbf228424.png)
+![image](https://user-images.githubusercontent.com/80514865/204261073-d4d80757-fa91-4f10-ba9e-1b61731fb48c.png)
+![image](https://user-images.githubusercontent.com/80514865/204261209-180fe9f3-dd9b-44b4-a3a0-5fc9d9310db9.png)
+![image](https://user-images.githubusercontent.com/80514865/204261273-f0136f54-65e7-4dc2-8a03-b926b7ee7ee1.png)
+![image](https://user-images.githubusercontent.com/80514865/204261322-efa59f62-8cd5-4356-9578-6d2d6de729ba.png)
+![image](https://user-images.githubusercontent.com/80514865/204261466-de7a8602-e642-450d-baf4-bec64bf58efd.png)
+![image](https://user-images.githubusercontent.com/80514865/204261651-2a2133b5-0e66-46e0-880a-474f2e20b147.png)
+
+# Contributors
+
+1. Aryan Balpande (16010120002)
+2. Vinod Ghanchi (16010120016)
+3. Kaushik Iyer (16010120017)
